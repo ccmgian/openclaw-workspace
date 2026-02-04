@@ -1,19 +1,19 @@
 {
   "agent:main:main": {
     "sessionId": "caaa3cf3-8ace-4ad1-b3a9-e2e1b522880a",
-    "updatedAt": 1770182759266,
+    "updatedAt": 1770183343374,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
     "deliveryContext": {
-      "channel": "webchat",
+      "channel": "whatsapp",
       "to": "+61435622533",
       "accountId": "default"
     },
-    "lastChannel": "webchat",
+    "lastChannel": "whatsapp",
     "origin": {
-      "provider": "webchat",
-      "surface": "webchat",
+      "provider": "whatsapp",
+      "surface": "whatsapp",
       "chatType": "direct",
       "label": "+61435622533",
       "from": "+61435622533",
@@ -60,7 +60,7 @@
     "contextTokens": 200000,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1770182745117,
+      "generatedAt": 1770183342970,
       "sessionId": "caaa3cf3-8ace-4ad1-b3a9-e2e1b522880a",
       "sessionKey": "agent:main:main",
       "provider": "anthropic",
@@ -72,9 +72,9 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 23108,
+        "chars": 23111,
         "projectContextChars": 13675,
-        "nonProjectContextChars": 9433
+        "nonProjectContextChars": 9436
       },
       "injectedWorkspaceFiles": [
         {
@@ -213,7 +213,7 @@
           },
           {
             "name": "message",
-            "summaryChars": 102,
+            "summaryChars": 110,
             "schemaChars": 3213,
             "propertiesCount": 79
           },
