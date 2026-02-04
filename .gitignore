@@ -1,0 +1,57 @@
+# Workspace (huge, track separately)
+workspace/
+
+# Dependencies
+node_modules/
+pip-cache/
+
+# Large/temporary files
+*.log
+*.db
+*.sqlite
+*.tmp
+
+# Secrets/config
+.env
+.env.local
+secrets.json
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Node
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Media cache (large)
+media/
+temp/
+cache/
+
+# Browser cache (large)
+browser/openclaw/user-data/
+browser/*/Cache/
+
+# Gateway runtime
+gateway.pid

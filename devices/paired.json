@@ -1,0 +1,65 @@
+{
+  "1382e2c1ae5fa1af5b2b551abf785658e5456bbc15dcb03a05d995a508548897": {
+    "deviceId": "1382e2c1ae5fa1af5b2b551abf785658e5456bbc15dcb03a05d995a508548897",
+    "publicKey": "JNahxj4zlWsmQlYTDIuV1aIj5MPx1PvFkC8KFi3ACxw",
+    "platform": "Win32",
+    "clientId": "openclaw-control-ui",
+    "clientMode": "webchat",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "1c082719d04042ca9b97313b630e0728",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.approvals",
+          "operator.pairing"
+        ],
+        "createdAtMs": 1770096681168,
+        "lastUsedAtMs": 1770181676259
+      }
+    },
+    "createdAtMs": 1770096681167,
+    "approvedAtMs": 1770096681167
+  },
+  "2ec6cbc8a465888951206e38d068022c0da2e84b10d115a22b49a0c90a2331e6": {
+    "deviceId": "2ec6cbc8a465888951206e38d068022c0da2e84b10d115a22b49a0c90a2331e6",
+    "publicKey": "H2tiFL1bvzFoUutKARYizG4rZF9BH0-YrgryB1m2m4Q",
+    "platform": "win32",
+    "clientId": "gateway-client",
+    "clientMode": "backend",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "943fbd6a52184746b46c1c0bdf8e21f3",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.approvals",
+          "operator.pairing"
+        ],
+        "createdAtMs": 1770096969364,
+        "lastUsedAtMs": 1770181502827
+      }
+    },
+    "createdAtMs": 1770096969364,
+    "approvedAtMs": 1770096969364,
+    "displayName": "agent"
+  }
+}
