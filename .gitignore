@@ -1,3 +1,9 @@
+# SECRETS & CREDENTIALS (NEVER push these!)
+credentials/
+identity/device-auth.json
+agents/main/agent/auth-profiles.json
+openclaw.json
+
 # Workspace (huge, track separately)
 workspace/
 
