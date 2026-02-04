@@ -1,7 +1,7 @@
 {
   "agent:main:main": {
     "sessionId": "caaa3cf3-8ace-4ad1-b3a9-e2e1b522880a",
-    "updatedAt": 1770184299073,
+    "updatedAt": 1770184764268,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -60,7 +60,7 @@
     "contextTokens": 200000,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1770184291730,
+      "generatedAt": 1770184758028,
       "sessionId": "caaa3cf3-8ace-4ad1-b3a9-e2e1b522880a",
       "sessionKey": "agent:main:main",
       "provider": "anthropic",
@@ -299,8 +299,8 @@
       }
     },
     "inputTokens": 10,
-    "outputTokens": 385,
-    "totalTokens": 171376,
+    "outputTokens": 247,
+    "totalTokens": 171698,
     "lastTo": "+61435622533",
     "lastAccountId": "default"
   }
