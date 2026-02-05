@@ -1,7 +1,7 @@
 {
   "agent:main:main": {
     "sessionId": "1c757b83-2344-4ec3-9bc0-63980fbfb6a5",
-    "updatedAt": 1770259043305,
+    "updatedAt": 1770260112724,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -49,15 +49,15 @@
     "authProfileOverride": "anthropic:default",
     "authProfileOverrideSource": "auto",
     "authProfileOverrideCompactionCount": 0,
-    "inputTokens": 14,
-    "outputTokens": 127,
-    "totalTokens": 15296,
+    "inputTokens": 10,
+    "outputTokens": 422,
+    "totalTokens": 15267,
     "modelProvider": "anthropic",
     "model": "claude-haiku-4-5",
     "contextTokens": 200000,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1770259038325,
+      "generatedAt": 1770260107443,
       "sessionId": "1c757b83-2344-4ec3-9bc0-63980fbfb6a5",
       "sessionKey": "agent:main:main",
       "provider": "anthropic",
