@@ -1,26 +1,20 @@
 {
   "agent:main:main": {
-    "sessionId": "caaa3cf3-8ace-4ad1-b3a9-e2e1b522880a",
-    "updatedAt": 1770202667941,
+    "sessionId": "1c757b83-2344-4ec3-9bc0-63980fbfb6a5",
+    "updatedAt": 1770259043305,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
     "deliveryContext": {
-      "channel": "whatsapp",
-      "to": "+61435622533",
-      "accountId": "default"
+      "channel": "webchat"
     },
-    "lastChannel": "whatsapp",
+    "lastChannel": "webchat",
     "origin": {
-      "provider": "whatsapp",
-      "surface": "whatsapp",
-      "chatType": "direct",
-      "label": "+61435622533",
-      "from": "+61435622533",
-      "to": "+61435622533",
-      "accountId": "default"
+      "provider": "webchat",
+      "surface": "webchat",
+      "chatType": "direct"
     },
-    "sessionFile": "C:\\Users\\gdungca\\.openclaw\\agents\\main\\sessions\\caaa3cf3-8ace-4ad1-b3a9-e2e1b522880a.jsonl",
+    "sessionFile": "C:\\Users\\gdungca\\.openclaw\\agents\\main\\sessions\\1c757b83-2344-4ec3-9bc0-63980fbfb6a5.jsonl",
     "compactionCount": 0,
     "skillsSnapshot": {
       "prompt": "\n\nThe following skills provide specialized instructions for specific tasks.\nUse the read tool to load a skill's file when the task matches its description.\nWhen a skill file references a relative path, resolve it against the skill directory (parent of SKILL.md / dirname of the path) and use that absolute path in tool commands.\n\n<available_skills>\n  <skill>\n    <name>bluebubbles</name>\n    <description>Build or update the BlueBubbles external channel plugin for OpenClaw (extension package, REST send/probe, webhook inbound).</description>\n    <location>C:\\Users\\gdungca\\AppData\\Roaming\\npm\\node_modules\\openclaw\\skills\\bluebubbles\\SKILL.md</location>\n  </skill>\n  <skill>\n    <name>skill-creator</name>\n    <description>Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.</description>\n    <location>C:\\Users\\gdungca\\AppData\\Roaming\\npm\\node_modules\\openclaw\\skills\\skill-creator\\SKILL.md</location>\n  </skill>\n</available_skills>",
@@ -55,13 +49,16 @@
     "authProfileOverride": "anthropic:default",
     "authProfileOverrideSource": "auto",
     "authProfileOverrideCompactionCount": 0,
+    "inputTokens": 14,
+    "outputTokens": 127,
+    "totalTokens": 15296,
     "modelProvider": "anthropic",
     "model": "claude-haiku-4-5",
     "contextTokens": 200000,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1770202586955,
-      "sessionId": "caaa3cf3-8ace-4ad1-b3a9-e2e1b522880a",
+      "generatedAt": 1770259038325,
+      "sessionId": "1c757b83-2344-4ec3-9bc0-63980fbfb6a5",
       "sessionKey": "agent:main:main",
       "provider": "anthropic",
       "model": "claude-haiku-4-5",
@@ -72,9 +69,9 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 23111,
+        "chars": 23108,
         "projectContextChars": 13675,
-        "nonProjectContextChars": 9436
+        "nonProjectContextChars": 9433
       },
       "injectedWorkspaceFiles": [
         {
@@ -213,7 +210,7 @@
           },
           {
             "name": "message",
-            "summaryChars": 110,
+            "summaryChars": 102,
             "schemaChars": 3213,
             "propertiesCount": 79
           },
@@ -297,11 +294,6 @@
           }
         ]
       }
-    },
-    "inputTokens": 10,
-    "outputTokens": 248,
-    "totalTokens": 172188,
-    "lastTo": "+61435622533",
-    "lastAccountId": "default"
+    }
   }
 }
